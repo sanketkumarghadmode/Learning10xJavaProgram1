@@ -1,4 +1,4 @@
-package LAB1;
+package all_Labs;
 
 public class L2 {
 
