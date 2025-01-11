@@ -13,6 +13,7 @@ public class DataTypeAndVirables {
         long l = 7447818516l;
         float f = 4.4f;
         double d = 3.44d;
+        System.out.println("fdsfaf");
 
         System.out.println(b+" "+c+" "+by+" "+s+" "+a+" "+l+" "+f+" "+d);
 
