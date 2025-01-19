@@ -43,6 +43,29 @@ public class L11_literals {
         System.out.print("sanket"+Carriage_return+"ghadmode"); // remove the one word
 
 
+        //String Literals
+        String greeting = "Hello, World!";  // String literal
+        String multiline = "Line 1\nLine 2"; // String with escape sequence
+
+        System.out.println(greeting);
+        System.out.println(multiline);
+
+       // Boolean Literals
+        boolean isJavaFun = true;
+        boolean isFishTasty = false;
+
+        System.out.println("Is Java fun? " + isJavaFun);
+        System.out.println("Is fish tasty? " + isFishTasty);
+
+       //Null Literal
+        String str = null;          // Reference variable with null
+        if (str == null) {
+            System.out.println("The string is null.");
+        }
+
+        str = "Hello, Java!";
+        System.out.println("Now, the string is: " + str);
+
 
 
     }
