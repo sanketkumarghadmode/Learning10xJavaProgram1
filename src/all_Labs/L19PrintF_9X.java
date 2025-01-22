@@ -1,6 +1,6 @@
 package all_Labs;
 
-public class PrintF_9X {
+public class L19PrintF_9X {
 
     public static void main(String[] args) {
 
