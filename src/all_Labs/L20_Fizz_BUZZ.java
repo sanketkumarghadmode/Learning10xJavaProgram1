@@ -1,6 +1,6 @@
 package all_Labs;
 
-public class LB20_Fizz_BUZZ {
+public class L20_Fizz_BUZZ {
 
 public static void main(String [] args) {
 
