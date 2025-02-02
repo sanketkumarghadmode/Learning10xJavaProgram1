@@ -40,12 +40,10 @@ public class L38_String_Functions {
         String fullname  = "sanket ghadmode";
         System.out.println(fullname.charAt(0)); // s
 
-        //concat() it will Concatenate the specified string to the end of this string.
           String greeting = "Welcome! ";
           String result  = greeting.concat(fullname); // in this case concat will create the new object
           System.out.println(result);
 
-        //contain() it will check the value and return true or false if the value is present in the given string
          System.out.println(result.contains("sanket"));
          System.out.println(result.contains("KK"));
 
@@ -92,13 +90,10 @@ public class L38_String_Functions {
        // by a regular expression (regex) in a string.
         System.out.println(fullname.replaceAll("SANKET", "sanket"));
 
-        //starWith()
         System.out.println(fullname.startsWith("S"));
 
-        //endWith()
         System.out.println(fullname.endsWith("e"));
 
-        //isEmpty()
         System.out.println(fullname.isEmpty());
 
         //trim
