@@ -2,7 +2,7 @@ package all_Labs;
 
 import java.util.Scanner;
 
-public class Travel_Eligibility {
+public class L45_Travel_Eligibility {
 
     public static void main(String[] args) {
 
