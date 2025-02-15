@@ -1,9 +1,8 @@
 package all_Labs;
 
-import javax.xml.transform.Source;
 import java.util.Scanner;
 
-public class LB47_NumberConvertintoYearandday {
+public class L47_NumberConvertintoYearandday {
 
 
     public static void main(String[] args) {

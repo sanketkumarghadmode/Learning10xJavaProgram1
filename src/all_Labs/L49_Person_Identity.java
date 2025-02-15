@@ -2,7 +2,7 @@ package all_Labs;
 
 import java.util.Scanner;
 
-public class LB48_Person_Identity {
+public class L49_Person_Identity {
 
     public static void main(String[] args) {
 
