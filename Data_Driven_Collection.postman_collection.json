@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "a254175b-8fbc-4f15-8c37-e6846f5c5af4",
+		"name": "Data_Driven_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21842040",
+		"_collection_link": "https://restless-equinox-341225.postman.co/workspace/My-Workspace~d771bfca-18f9-4e49-8739-f1d88907f12d/collection/21842040-a254175b-8fbc-4f15-8c37-e6846f5c5af4?action=share&source=collection_link&creator=21842040"
+	},
+	"item": [
+		{
+			"name": "Sing up - create user",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"verify the status code  = 201\",function(){\r",
+							"    pm.response.to.have.status(201); \r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verify id is not != Null\",function(){\r",
+							"\r",
+							"    var JsonData = pm.response.json();\r",
+							"    pm.expect(JsonData.id).to.not.equal(null);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"email\": \"{{email}}\",\r\n    \"password\":\"{{password}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/register/preprod",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"register",
+						"preprod"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
